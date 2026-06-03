@@ -1,8 +1,9 @@
 //stand sort algorithm (Phannang)
 
 import java.util.Arrays;
-public class Phannang_algorithm {
-    int[] arr = {1, 3, 9, 4, 5, 6, 2, 8, 7, 10};
+public class Phannang_algorithm extends AlgorithmV1 {
+    
+    @override
 
     public void standSort() {
         int n = arr.length;
@@ -22,9 +23,5 @@ public class Phannang_algorithm {
         }
     }
 
-    public static void main(String[] args) {
-        Phannang_algorithm obj = new Phannang_algorithm();
-        obj.standSort();
-        System.out.println(Arrays.toString(obj.arr));
-    }
+    
 }
