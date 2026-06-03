@@ -2,17 +2,22 @@ public class AlgorithmV1 {
     int[] arr = {1, 3, 9, 4, 5, 6, 2, 8, 7, 10};
 
     // Bubble Sort Algorithm (Vanny)
-    abstract void bubbleSort();
+    void bubbleSort() {
+    }
 
-    //selection sort algorithm (Davy)
-    abstract void selectionSort();
+    // selection sort algorithm (Davy)
+    void selectionSort() {
+    }
 
-    //insertion sort algorithm (phaleng)
-    abstract void insertionSort();
+    // insertion sort algorithm (Phaleng)
+    void insertionSort() {
+    }
 
-    //stand sort algorithm (Phannang)
-    abstract void standSort();
+    // stand sort algorithm (Phannang)
+    void standSort() {
+    }
 
-    //Exchange sort algorithm (nak)
-    abstract void exchangeSort();
+    // Exchange sort algorithm (nak)
+    void exchangeSort() {
+    }
 }

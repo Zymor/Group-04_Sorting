@@ -3,7 +3,7 @@
 import java.util.Arrays;
 public class Phannang_algorithm extends AlgorithmV1 {
     
-    @override
+    @Override
 
     public void standSort() {
         int n = arr.length;
