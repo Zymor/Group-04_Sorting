@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Vanny_algorithm",
+            "request": "launch",
+            "mainClass": "Vanny_algorithm",
+            "projectName": "Group-04_Sorting_47e65c50"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "Main",
