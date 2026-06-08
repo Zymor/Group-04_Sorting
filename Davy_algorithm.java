@@ -1,3 +1,20 @@
-public class Davy_algorithm {
+public class Davy_algorithm extends AlgorithmV1 {
+    int[] arr = {1, 3, 9, 4, 5, 6, 2, 8, 7, 10};  
     
+    @Override
+    void selectionSort() {
+        int n = arr.length;
+        for (int i = 0; i < n - 1; i++) {
+            int minIndex = i;
+            for (int j = i + 1; j < n; j++) {
+                if (arr[j] < arr[minIndex]) {
+                    minIndex = j;
+                }
+            }
+            int temp = arr[minIndex];
+            arr[minIndex] = arr[i];
+            arr[i] = temp;
+        }
+    }
 }
+//abc
