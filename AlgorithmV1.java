@@ -1,5 +1,5 @@
 public class AlgorithmV1 {
-    int[] arr = {1, 3, 9, 4, 5, 6, 2, 8, 7, 10};
+    int[] arr = {1, 12, 9, 4, 5, 6, 2, 8, 7, 10};
 
     // Bubble Sort Algorithm (Vanny)
     void bubbleSort() {
