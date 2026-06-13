@@ -1,5 +1,5 @@
 public class Davy_algorithm extends AlgorithmV1 {
-    int[] arr = {1, 3, 9, 4, 5, 6, 2, 8, 7, 10};  
+  
     
     @Override
     void selectionSort() {
